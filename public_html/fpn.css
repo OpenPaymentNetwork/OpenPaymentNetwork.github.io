@@ -10,10 +10,10 @@ body {
   height: 100%;
 }
 
-@media (max-width: 991px) {
-  /* Shrink the navbar font for small screens. */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Shrink the navbar font for moderately narrow screens. */
   .navbar {
-    font-size: 14px;
+    font-size: 11px;
   }
 }
 
@@ -65,7 +65,7 @@ body {
   color: #fff;
   display: flex;
   flex-direction: column;
-  justify-content: center;  
+  justify-content: center;
   text-align: center;
   height: 100%;
 }
@@ -160,7 +160,7 @@ section.centered {
 }
 
 .morelink-container {
-  margin-top: 30px;  
+  margin-top: 30px;
 }
 
 .morelink {
