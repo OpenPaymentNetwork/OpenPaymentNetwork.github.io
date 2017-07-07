@@ -1,0 +1,202 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #f2f2f2;
+  color: #4a4a4a;
+  font-family: Muli, sans-serif;
+  font-size: 16px;
+  height: 100%;
+}
+
+@media (max-width: 991px) {
+  /* Shrink the navbar font for small screens. */
+  .navbar {
+    font-size: 14px;
+  }
+}
+
+.navbar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+.navbar-brand {
+  color: #fff;
+}
+
+.navbar-nav > li > a {
+  color: #fff;
+}
+
+.navbar-nav > li > a:focus, .navbar-nav > li > a:hover {
+  background-color: transparent;
+}
+
+.navbar-brand-img {
+}
+
+.navbar-toggle {
+  border-color: #fff;
+}
+
+.navbar-toggle .icon-bar {
+  border: 1px solid #fff;
+}
+
+@media (max-width: 767px) {
+  .navbar-collapse {
+    background-color: rgba(50, 73, 99, 0.95);
+  }
+}
+
+.topfold {
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/frbb.jpg');
+  background-color: #324963;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.topfold-content {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  text-align: center;
+  height: 100%;
+}
+
+.topfold-h1 {
+  font-size: 55px;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 767px) {
+  .topfold-h1 {
+    font-size: 28px;
+  }
+}
+
+.topfold-download-button {
+  background-color: transparent;
+  color: #fff;
+  padding: 16px 50px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.topfold-download-button:hover, .topfold-download-button:focus {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.execsum {
+  margin: 80px 0 50px;
+  font-size: 24px;
+  font-weight: 300;
+  color: #4a4a4a;
+}
+
+.action-button-container {
+  text-align: center;
+  margin: 70px 0;
+}
+
+.action-button {
+  background-color: transparent;
+  color: #a8a8a8;
+  padding: 16px 50px;
+  border: 1px solid #a8a8a8;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.action-button:hover, .action-button:focus {
+  color: #444;
+  border-color: #444;
+}
+
+section {
+  padding: 50px;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+section.bright {
+  background-color: #fff;
+}
+
+section.centered {
+  text-align: center;
+}
+
+.section-title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.diagram-container {
+  text-align: center;
+}
+
+.diagram {
+  margin: 50px 0;
+  max-width: 100%;
+}
+
+.interjection {
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+.morelink-container {
+  margin-top: 30px;  
+}
+
+.morelink {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+@media (min-width: 922px) {
+  .benefit-grid {
+    margin: 0 20px;
+  }
+}
+
+.benefit {
+  padding: 20px;
+  text-align: center;
+}
+
+.benefit-img {
+  height: 100px;
+  text-align: center;
+}
+
+.score-heading {
+  font-weight: 700;
+}
+
+@media (max-width: 767px) {
+  .history-pic {
+    text-align: center;
+    margin: 20px 0;
+  }
+}
+
+.footer {
+  padding: 100px 0;
+  font-size: 12px;
+}
