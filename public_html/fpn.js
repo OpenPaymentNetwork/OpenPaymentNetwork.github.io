@@ -22,4 +22,20 @@ jQuery(document).ready(function ($) {
     $('.navbar-collapse').collapse('hide');
   });
 
+  $('.smooth-scroll a[href], a[href].smooth-scroll').on('click', function(event) {
+    console.log(this.href);
+    if (!/#.+$/.test(this.href)) {
+      return;
+    }
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 400);
+        event.preventDefault();
+      }
+    }
+  });
 });
