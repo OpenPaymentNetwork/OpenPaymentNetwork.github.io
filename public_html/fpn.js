@@ -30,7 +30,6 @@ jQuery(document).ready(function ($) {
   });
 
   $('.smooth-scroll a[href], a[href].smooth-scroll').on('click', function(event) {
-    console.log(this.href);
     if (!/#.+$/.test(this.href)) {
       return;
     }

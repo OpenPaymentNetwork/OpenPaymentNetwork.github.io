@@ -185,7 +185,6 @@ section.centered {
 .benefit-img {
   height: 100px;
   text-align: center;
-  filter: sepia(100%) hue-rotate(180deg);
 }
 
 .score-heading {
