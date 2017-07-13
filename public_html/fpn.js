@@ -3,7 +3,14 @@
 jQuery(document).ready(function ($) {
   $('.faq').on('click', '.faq-question', function (event) {
     var question = $(event.target);
-    question.next('.faq-answer').slideToggle();
+    var answer = question.next('.faq-answer');
+    if (question.hasClass('open')) {
+      question.removeClass('open');
+      answer.slideUp();
+    } else {
+      question.addClass('open');
+      answer.slideDown();
+    }
   });
 
   var jqWindow = $(window);

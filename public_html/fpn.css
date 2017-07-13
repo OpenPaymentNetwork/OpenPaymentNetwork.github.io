@@ -185,6 +185,7 @@ section.centered {
 .benefit-img {
   height: 100px;
   text-align: center;
+  filter: sepia(100%) hue-rotate(180deg);
 }
 
 .score-heading {
@@ -210,10 +211,21 @@ section.centered {
 .faq-question:before {
   content: "▶";
   display: inline-block;
-  font-size: 10px;
+  font-size: 12px;
   font-style: normal;
+  height: 12px;
+  line-height: 12px;
   padding-right: 2px;
-  vertical-align: 20%;
+  text-align: center;
+  transform-origin: 4px 7px;
+  transform: translateY(6px) rotate(0deg);
+  transition: transform 400ms;
+  vertical-align: top;
+  width: 12px;
+}
+
+.faq-question.open:before {
+  transform: translateY(6px) rotate(90deg);
 }
 
 .faq-question {
