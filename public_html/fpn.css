@@ -254,5 +254,6 @@ section.centered {
 }
 
 .disclaimer {
-  text-transform: uppercase;
+  text-align: justify;
+  padding: 1em;
 }
