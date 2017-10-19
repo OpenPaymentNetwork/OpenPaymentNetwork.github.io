@@ -165,6 +165,12 @@ section.centered {
   max-width: 100%;
 }
 
+.ranking-chart-caption {
+  text-align: left;
+  font-size: 75%;
+  margin-bottom: 60px;
+}
+
 .interjection {
   font-size: 18px;
   font-weight: 400;
