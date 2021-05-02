@@ -1,17 +1,6 @@
 "use strict";
 
 jQuery(document).ready(function ($) {
-  $('.faq').on('click', '.faq-question', function (event) {
-    var question = $(event.target);
-    var answer = question.next('.faq-answer');
-    if (question.hasClass('open')) {
-      question.removeClass('open');
-      answer.slideUp();
-    } else {
-      question.addClass('open');
-      answer.slideDown();
-    }
-  });
 
   var jqWindow = $(window);
   var jqNavBar = $('.navbar-fixed-top');

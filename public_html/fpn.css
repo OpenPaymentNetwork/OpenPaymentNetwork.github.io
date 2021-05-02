@@ -34,6 +34,11 @@ body {
 }
 
 .navbar-brand-img {
+  -ms-transform: scale(0.75);
+  -webkit-transform: scale(0.75);
+  -o-transform: scale(0.75);
+  -moz-transform: scale(0.75);
+  transform: scale(0.75);
 }
 
 .navbar-toggle {
@@ -94,7 +99,7 @@ body {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-.execsum {
+.changeinfo {
   margin: 80px 0 50px;
   font-size: 24px;
   font-weight: 300;
@@ -102,7 +107,7 @@ body {
 }
 
 @media (max-width: 767px) {
-  .execsum {
+  .changeinfo {
     font-size: 16px;
   }
 }
@@ -176,37 +181,8 @@ section.centered {
   max-width: 703px;
 }
 
-.interjection {
-  font-size: 18px;
-  font-weight: 400;
-  padding-top: 20px;
-}
-
-@media (min-width: 922px) {
-  .benefit-grid {
-    margin: 0 20px;
-  }
-}
-
-.benefit {
-  padding: 20px;
-  text-align: center;
-}
-
-.benefit-img {
-  height: 100px;
-  text-align: center;
-}
-
 .score-heading {
   font-weight: 700;
-}
-
-@media (max-width: 767px) {
-  .history-pic {
-    text-align: center;
-    margin: 20px 0;
-  }
 }
 
 .footer {
@@ -214,40 +190,12 @@ section.centered {
   font-size: 12px;
 }
 
-.faq > h4 {
-  margin-top: 24px;
-}
-
-.faq-question:before {
-  content: "▶";
-  display: inline-block;
-  font-size: 12px;
-  font-style: normal;
-  height: 12px;
-  line-height: 12px;
-  padding-right: 2px;
-  text-align: center;
-  transform-origin: 4px 7px;
-  transform: translateY(6px) rotate(0deg);
-  transition: transform 400ms;
-  vertical-align: top;
-  width: 12px;
-}
-
-.faq-question.open:before {
-  transform: translateY(6px) rotate(90deg);
-}
-
-.faq-question {
-  cursor: pointer;
-  font-style: italic;
-}
-
-.faq-answer {
-  display: none;
-  background-color: #fff;
-  padding: 8px 16px 8px 64px;
-  margin: 8px 0;
+.footer-logo {
+  -ms-transform: scale(0.5);
+  -webkit-transform: scale(0.5);
+  -o-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  transform: scale(0.5);
 }
 
 @media (max-width: 921px) {
@@ -262,9 +210,4 @@ section.centered {
   text-align: center;
   padding-top: 16px;
   vertical-align: top;
-}
-
-.disclaimer {
-  text-align: justify;
-  padding: 1em;
 }
