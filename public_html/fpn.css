@@ -34,11 +34,8 @@ body {
 }
 
 .navbar-brand-img {
-  -ms-transform: scale(0.75);
-  -webkit-transform: scale(0.75);
-  -o-transform: scale(0.75);
-  -moz-transform: scale(0.75);
-  transform: scale(0.75);
+  max-width: 225px;
+  height: auto;
 }
 
 .navbar-toggle {
@@ -191,11 +188,8 @@ section.centered {
 }
 
 .footer-logo {
-  -ms-transform: scale(0.5);
-  -webkit-transform: scale(0.5);
-  -o-transform: scale(0.5);
-  -moz-transform: scale(0.5);
-  transform: scale(0.5);
+  max-width: 225px;
+  height: auto;
 }
 
 @media (max-width: 921px) {
